@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.customInput {
+  width:200px;
+  height:40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: white;
+  outline:none;
+
+}
+
+
+h2, h3 {
+  color : #880e4f;
+  font-size: 25px;
+}
+
+
+.customButton {
+  width:10%;
+  height:40px;
+  background-color: #fea839; 
+  border: none;
+  color: #000;
+  font-weight:bold;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  outline:none;
+}
+
+.customButton:hover {background-color: #ee8b09}
+
+
+.customButton:active {
+  background-color: #fea834;
+  transform: translateY(2px);
+}
