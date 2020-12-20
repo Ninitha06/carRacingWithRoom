@@ -119,7 +119,7 @@ class Game {
       player.update();
     }
 
-    if(player.yDistance > 3860){
+    if(player.yDistance > displayHeight*5 - 100){
       gameState = 2;
       player.rank +=1
       player.updateCarsAtEnd(player.rank);
